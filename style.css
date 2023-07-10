@@ -58,6 +58,12 @@ section {
     min-height: 100vh;
 }
 
+.user-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #000;
+}
+
 .heading {
     font-size: 4rem;
     padding-bottom: 1rem;
@@ -84,6 +90,10 @@ section {
 .btn:hover {
     background: #111;
     letter-spacing: 0.2rem;
+}
+
+.btn:hover i {
+    color: var(--main-color);
 }
 
 .email-low {
