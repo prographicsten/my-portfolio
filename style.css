@@ -500,6 +500,7 @@ header .follow a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    
 }
 
 .experience .box-container .box {
@@ -511,7 +512,21 @@ header .follow a:hover {
     padding-bottom: 2rem;
 }
 
-.experience .box-container .box::before {
+.experience .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    color: #fff;
+    background: var(--main-color);
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* .experience .box-container .box::before {
     content: '';
     position: absolute;
     top: -1rem;
@@ -520,7 +535,7 @@ header .follow a:hover {
     width: 2rem;
     border-radius: 50%;
     background: var(--main-color);
-}
+} */
 
 .experience .box-container .box .content {
     background: #fff;
